@@ -1,0 +1,2 @@
+I left the program name to be a.out. The yellow lines should go from top left corner, toward the bottom right. I had a very hard time getting fscanf to read in the binary, so i ended up using fread to get the input and then fwrite to output the binary. Cheers.
+

@@ -1,0 +1,4 @@
+I'm getting a segmentation fault 11 error in line 24 of my PNMreader
+.C file. Not sure why, I've allocated memory on the heap for it already,
+and it's identical to the way I used fread in the last two iterations
+of this project. Well regardless, cheers.

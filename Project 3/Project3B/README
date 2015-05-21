@@ -1,0 +1,1 @@
+This one didn't go as well. I feel like all my functions worked on their own, but not together. To test, run make, then ./proj3B 3A_input.pnm output.pnm or whatever you want to call the output file. Cheers.
