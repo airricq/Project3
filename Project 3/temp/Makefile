@@ -1,4 +1,4 @@
-SRC=test.C image.C source.C PNMreader.C
+SRC=driver.C image.C source.C PNMreader.C
 OBJ=$(SRC:.C=.o)
 
 prog: $(OBJ)
@@ -8,7 +8,7 @@ prog: $(OBJ)
 	g++ -I. -c $<
 
 run:
-	./proj3C input.pnm
+	./proj3C input.pnm output.pnm
 
 clean:
 	rm *.o
