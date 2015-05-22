@@ -4,8 +4,9 @@
 #define PNMREAD_DEF
 
 class PNMreader : public Source{
+	char *filename;
 	public:
-		PNMreader(char *fin, char *fout);
+		PNMreader(char *f_in);
 		virtual void Execute();
 };
 #endif

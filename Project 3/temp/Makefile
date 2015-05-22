@@ -1,4 +1,4 @@
-SRC=driver.C image.C source.C PNMreader.C
+SRC=main3C.C image.C sink.C source.C PNMreader.C PNMwriter.C filters.C
 OBJ=$(SRC:.C=.o)
 
 prog: $(OBJ)
@@ -12,3 +12,6 @@ run:
 
 clean:
 	rm *.o
+
+png:
+	pnmtopng < output.pnm > output.png
